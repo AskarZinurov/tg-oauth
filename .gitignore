@@ -1,0 +1,13 @@
+/docs/
+/lib/
+/bin/
+/.shards/
+*.dwarf
+.env*
+/tmp
+doc
+.crystal
+app
+.DS_Store
+node_modules
+www/styles.css
