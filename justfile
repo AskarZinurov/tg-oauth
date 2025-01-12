@@ -11,8 +11,13 @@ init:
   bun install
   shards
 
+# Compile css styles
 compile-css:
-	bun run tailwindcss -i ./src/assets/styles.css -o ./www/styles.css --minify
+  bun run tailwindcss -i ./src/assets/styles.css -o ./www/styles.css --minify
+
+# Compile app binary
+compile: init
+  shards build
 
 # Build project images
 build: init cleanup compile-css

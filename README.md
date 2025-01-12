@@ -15,6 +15,7 @@ First you need to install dev tools:
 * [crystal](https://crystal-lang.org/install/)
 * [just](https://just.systems/man/en/packages.html)
 * [bun](https://bun.sh/docs/installation)
+* [podman](https://podman.io/docs/installation) or [docker](https://docs.docker.com/get-started/get-docker/)
 
 Then you can run `just build`
 
